@@ -1,0 +1,9 @@
+﻿ string configFilePath = AppDomain.CurrentDomain.BaseDirectory + "App.config";
+ MessageBox.Show(ConfigurationManager.AppSettings["googlecloud"]);
+ //Configurar_Bkp bkp = new Configurar_Bkp();
+ //bkp.ShowDialog();
+
+
+        var FileINI = this.IniFile();
+        var parser = new FileIniDataParser();
+        IniData data = parser.ReadFile(FileINI);
