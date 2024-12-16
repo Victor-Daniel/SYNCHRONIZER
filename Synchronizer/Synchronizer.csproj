@@ -36,8 +36,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="backup_system\" />
-  </ItemGroup>
-
 </Project>

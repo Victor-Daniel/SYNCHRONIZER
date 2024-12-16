@@ -112,21 +112,22 @@ namespace Synchronizer
             var Directory = new FolderBrowserDialog();
             Directory.ShowDialog();
             var Folder = Directory.SelectedPath;
-            
-            
-        }
-    }
-}
-/*
- lb_Person.Items.Add(Folder);
-
-            List<string> Dir = new List<string>(); 
-            foreach (string dir in lb_Person.Items)
+            if (!lb_Person.Items.Contains(Folder))
             {
-                Dir.Add(dir);
+                if (Folder !=String.Empty)
+                {
+                    lb_Person.Items.Add(Folder);
+                    MessageBox.Show(Folder);
+                }
+                
+            }
+            else
+            {
+                MessageBox.Show("Difretório já foi adicionado!");
             }
 
-            ConfigBackup configBackup = new ConfigBackup();
-            configBackup.SaveDirectories(Dir);
- 
- */
+        }
+
+
+    }
+}

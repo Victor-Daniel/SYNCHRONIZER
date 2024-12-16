@@ -94,7 +94,7 @@
             pictureBox1.Image = Properties.Resources.folder_Icon;
             pictureBox1.Location = new Point(546, 204);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(48, 48);
+            pictureBox1.Size = new Size(59, 48);
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
@@ -103,7 +103,7 @@
             pictureBox2.Image = Properties.Resources.folder_Icon;
             pictureBox2.Location = new Point(546, 272);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(48, 48);
+            pictureBox2.Size = new Size(59, 53);
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
             // 
@@ -201,7 +201,7 @@
             btn_rmdir.Name = "btn_rmdir";
             btn_rmdir.Size = new Size(158, 34);
             btn_rmdir.TabIndex = 16;
-            btn_rmdir.Text = "Remover Diretório";
+            btn_rmdir.Text = "Remover Diretórios";
             btn_rmdir.UseVisualStyleBackColor = true;
             // 
             // btn_mkdir
@@ -210,7 +210,7 @@
             btn_mkdir.Name = "btn_mkdir";
             btn_mkdir.Size = new Size(158, 34);
             btn_mkdir.TabIndex = 17;
-            btn_mkdir.Text = "Adicionar Diretório";
+            btn_mkdir.Text = "Adicionar Diretórios";
             btn_mkdir.UseVisualStyleBackColor = true;
             btn_mkdir.Click += btn_mkdir_Click;
             // 
