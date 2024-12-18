@@ -100,7 +100,14 @@ class ConfigBackup
         {
             if (File.Exists(Arquivo))
             {
-                MessageBox.Show(this.ListaDiretorios());
+                using (StreamWriter Writer = new StreamWriter(Arquivo,true))
+                {
+                    foreach (var item in Directories)
+                    {
+                        Writer.WriteLine(item);
+                    }
+                    MessageBox.Show("Diretórios salvos com Êxito!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             else
             {
@@ -114,6 +121,7 @@ class ConfigBackup
     
     }
 
+    //Retorna o Endereço completo do arquivo Directories.txt
     private string ListaDiretorios()
     {
         var CaminhoSystema = System.AppDomain.CurrentDomain.BaseDirectory;

@@ -100,6 +100,7 @@ namespace Synchronizer
 
         }
 
+        //Salva as configurações Personalizadas
         private void btn_Salvar_Click(object sender, EventArgs e)
         {
             ConfigBackup configBackup = new ConfigBackup();
@@ -107,6 +108,7 @@ namespace Synchronizer
 
         }
 
+        //Cria um endereço para uma pasta no ListBox
         private void btn_mkdir_Click(object sender, EventArgs e)
         {
             var Directory = new FolderBrowserDialog();
@@ -114,20 +116,36 @@ namespace Synchronizer
             var Folder = Directory.SelectedPath;
             if (!lb_Person.Items.Contains(Folder))
             {
-                if (Folder !=String.Empty)
+                if (Folder != String.Empty)
                 {
                     lb_Person.Items.Add(Folder);
-                    MessageBox.Show(Folder);
                 }
-                
             }
             else
             {
-                MessageBox.Show("Difretório já foi adicionado!");
+                MessageBox.Show("Diretório já foi adicionado!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
         }
 
+        //Botão que começa a salvar as informações de arquivos em um txt.
+        private void btn_Save_Directory_Click(object sender, EventArgs e)
+        {
+            if (lb_Person.Items.Count > 0)
+            {
+                List<string> files = new List<string>();
+                foreach (var item in lb_Person.Items)
+                {
+                    files.Add(item.ToString());
+                }
 
+                ConfigBackup configBackup = new ConfigBackup();
+                configBackup.SaveDirectories(files);
+            }
+            else
+            {
+                MessageBox.Show("Lista de diretórios está vazia!", "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

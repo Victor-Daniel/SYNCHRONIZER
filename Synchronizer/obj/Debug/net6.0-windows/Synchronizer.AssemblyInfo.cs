@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Synchronizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77e6c7143b3eee831670c6296f555beb8202b020")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f2efd529e98983ecf101531793bb926ad2b52a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Synchronizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Synchronizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -46,6 +46,7 @@
             btn_rmdir = new Button();
             btn_mkdir = new Button();
             btn_Verificar = new Button();
+            btn_Save_Directory = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -54,7 +55,7 @@
             // 
             label1.Font = new Font("Arial Black", 19.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
             label1.ForeColor = SystemColors.ControlText;
-            label1.Location = new Point(207, 50);
+            label1.Location = new Point(234, 27);
             label1.Name = "label1";
             label1.Size = new Size(391, 43);
             label1.TabIndex = 1;
@@ -65,7 +66,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(233, 193);
+            label2.Location = new Point(260, 170);
             label2.Name = "label2";
             label2.Size = new Size(212, 21);
             label2.TabIndex = 2;
@@ -74,14 +75,14 @@
             // tb_Default
             // 
             tb_Default.Enabled = false;
-            tb_Default.Location = new Point(233, 218);
+            tb_Default.Location = new Point(260, 195);
             tb_Default.Name = "tb_Default";
             tb_Default.Size = new Size(308, 27);
             tb_Default.TabIndex = 3;
             // 
             // btn_Browser
             // 
-            btn_Browser.Location = new Point(233, 319);
+            btn_Browser.Location = new Point(260, 296);
             btn_Browser.Name = "btn_Browser";
             btn_Browser.Size = new Size(103, 34);
             btn_Browser.TabIndex = 4;
@@ -92,7 +93,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.folder_Icon;
-            pictureBox1.Location = new Point(546, 204);
+            pictureBox1.Location = new Point(573, 181);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(59, 48);
             pictureBox1.TabIndex = 5;
@@ -101,7 +102,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.folder_Icon;
-            pictureBox2.Location = new Point(546, 272);
+            pictureBox2.Location = new Point(573, 249);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(59, 53);
             pictureBox2.TabIndex = 8;
@@ -110,7 +111,7 @@
             // tb_Person
             // 
             tb_Person.Enabled = false;
-            tb_Person.Location = new Point(233, 286);
+            tb_Person.Location = new Point(260, 263);
             tb_Person.Name = "tb_Person";
             tb_Person.Size = new Size(308, 27);
             tb_Person.TabIndex = 7;
@@ -119,7 +120,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Arial", 10.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(233, 262);
+            label3.Location = new Point(260, 239);
             label3.Name = "label3";
             label3.Size = new Size(267, 21);
             label3.TabIndex = 6;
@@ -128,7 +129,7 @@
             // rd_Default
             // 
             rd_Default.AutoSize = true;
-            rd_Default.Location = new Point(257, 132);
+            rd_Default.Location = new Point(284, 109);
             rd_Default.Name = "rd_Default";
             rd_Default.Size = new Size(114, 24);
             rd_Default.TabIndex = 9;
@@ -140,7 +141,7 @@
             // rd_Person
             // 
             rd_Person.AutoSize = true;
-            rd_Person.Location = new Point(377, 132);
+            rd_Person.Location = new Point(404, 109);
             rd_Person.Name = "rd_Person";
             rd_Person.Size = new Size(191, 24);
             rd_Person.TabIndex = 10;
@@ -153,14 +154,14 @@
             // 
             lb_Person.FormattingEnabled = true;
             lb_Person.ItemHeight = 20;
-            lb_Person.Location = new Point(207, 374);
+            lb_Person.Location = new Point(235, 361);
             lb_Person.Name = "lb_Person";
-            lb_Person.Size = new Size(425, 224);
+            lb_Person.Size = new Size(333, 244);
             lb_Person.TabIndex = 11;
             // 
             // btn_Config_Cloud
             // 
-            btn_Config_Cloud.Location = new Point(311, 621);
+            btn_Config_Cloud.Location = new Point(339, 611);
             btn_Config_Cloud.Name = "btn_Config_Cloud";
             btn_Config_Cloud.Size = new Size(189, 38);
             btn_Config_Cloud.TabIndex = 12;
@@ -169,7 +170,7 @@
             // 
             // btn_Salvar
             // 
-            btn_Salvar.Location = new Point(437, 319);
+            btn_Salvar.Location = new Point(464, 296);
             btn_Salvar.Name = "btn_Salvar";
             btn_Salvar.Size = new Size(103, 34);
             btn_Salvar.TabIndex = 13;
@@ -179,7 +180,7 @@
             // 
             // btn_BackpComp
             // 
-            btn_BackpComp.Location = new Point(638, 470);
+            btn_BackpComp.Location = new Point(574, 484);
             btn_BackpComp.Name = "btn_BackpComp";
             btn_BackpComp.Size = new Size(158, 34);
             btn_BackpComp.TabIndex = 14;
@@ -188,7 +189,7 @@
             // 
             // btn_BackupDiferencial
             // 
-            btn_BackupDiferencial.Location = new Point(638, 510);
+            btn_BackupDiferencial.Location = new Point(574, 524);
             btn_BackupDiferencial.Name = "btn_BackupDiferencial";
             btn_BackupDiferencial.Size = new Size(158, 34);
             btn_BackupDiferencial.TabIndex = 15;
@@ -197,7 +198,7 @@
             // 
             // btn_rmdir
             // 
-            btn_rmdir.Location = new Point(638, 430);
+            btn_rmdir.Location = new Point(574, 404);
             btn_rmdir.Name = "btn_rmdir";
             btn_rmdir.Size = new Size(158, 34);
             btn_rmdir.TabIndex = 16;
@@ -206,7 +207,7 @@
             // 
             // btn_mkdir
             // 
-            btn_mkdir.Location = new Point(638, 390);
+            btn_mkdir.Location = new Point(574, 364);
             btn_mkdir.Name = "btn_mkdir";
             btn_mkdir.Size = new Size(158, 34);
             btn_mkdir.TabIndex = 17;
@@ -216,18 +217,29 @@
             // 
             // btn_Verificar
             // 
-            btn_Verificar.Location = new Point(638, 550);
+            btn_Verificar.Location = new Point(574, 564);
             btn_Verificar.Name = "btn_Verificar";
             btn_Verificar.Size = new Size(158, 34);
             btn_Verificar.TabIndex = 18;
             btn_Verificar.Text = "Verificar Informações";
             btn_Verificar.UseVisualStyleBackColor = true;
             // 
+            // btn_Save_Directory
+            // 
+            btn_Save_Directory.Location = new Point(574, 444);
+            btn_Save_Directory.Name = "btn_Save_Directory";
+            btn_Save_Directory.Size = new Size(158, 34);
+            btn_Save_Directory.TabIndex = 19;
+            btn_Save_Directory.Text = "Salvar Diretórios";
+            btn_Save_Directory.UseVisualStyleBackColor = true;
+            btn_Save_Directory.Click += btn_Save_Directory_Click;
+            // 
             // Configurar_Bkp
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(859, 704);
+            Controls.Add(btn_Save_Directory);
             Controls.Add(btn_Verificar);
             Controls.Add(btn_mkdir);
             Controls.Add(btn_rmdir);
@@ -276,5 +288,6 @@
         private Button btn_rmdir;
         private Button btn_mkdir;
         private Button btn_Verificar;
+        private Button btn_Save_Directory;
     }
 }
