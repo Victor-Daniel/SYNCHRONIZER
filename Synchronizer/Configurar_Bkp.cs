@@ -54,6 +54,8 @@ namespace Synchronizer
                 btn_BackupDiferencial.Enabled = true;
                 btn_BackpComp.Enabled = true;
             }
+            this.Load_ListBox();
+
 
         }
 
@@ -147,5 +149,17 @@ namespace Synchronizer
                 MessageBox.Show("Lista de diretórios está vazia!", "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        //Carrega dados no ListBox quando carrega a tela.
+        private void Load_ListBox()
+        {
+            ConfigBackup configBackup = new ConfigBackup();
+            string Diretorios = configBackup.ListDirectories();
+            string Lista = "";
+            configBackup.ListDirectories();
+
+
+        }
     }
+
 }

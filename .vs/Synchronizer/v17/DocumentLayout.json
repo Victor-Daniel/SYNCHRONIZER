@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|c:\\users\\cdp-ti-001\\source\\repos\\synchronizer\\synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|solutionrelative:synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|c:\\users\\cdp-ti-001\\source\\repos\\synchronizer\\synchronizer\\class\\configbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|solutionrelative:synchronizer\\class\\configbackup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|c:\\users\\cdp-ti-001\\source\\repos\\synchronizer\\synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|solutionrelative:synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|solutionrelative:synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|c:\\users\\cdp-ti-001\\source\\repos\\synchronizer\\synchronizer\\config.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|c:\\users\\cdp-ti-001\\source\\repos\\synchronizer\\synchronizer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|solutionrelative:synchronizer\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D629D49B-C821-4A0B-96CC-850BC84E90CA}|Synchronizer\\Synchronizer.csproj|solutionrelative:synchronizer\\configurar_bkp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\App.config",
               "RelativeDocumentMoniker": "Synchronizer\\App.config",
@@ -42,59 +42,55 @@
               "RelativeToolTip": "Synchronizer\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-29T12:50:30.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T12:50:30.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "config.ini",
               "DocumentMoniker": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\config.ini",
               "RelativeDocumentMoniker": "Synchronizer\\config.ini",
               "ToolTip": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\config.ini",
               "RelativeToolTip": "Synchronizer\\config.ini",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
-              "WhenOpened": "2024-11-18T13:41:21.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:41:21.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConfigBackup.cs",
               "DocumentMoniker": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\class\\ConfigBackup.cs",
               "RelativeDocumentMoniker": "Synchronizer\\class\\ConfigBackup.cs",
               "ToolTip": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\class\\ConfigBackup.cs",
               "RelativeToolTip": "Synchronizer\\class\\ConfigBackup.cs",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAwGIAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAQwIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:01:01.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T13:01:01.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Configurar_Bkp.cs",
               "DocumentMoniker": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\Configurar_Bkp.cs",
               "RelativeDocumentMoniker": "Synchronizer\\Configurar_Bkp.cs",
               "ToolTip": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\Configurar_Bkp.cs",
               "RelativeToolTip": "Synchronizer\\Configurar_Bkp.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAA7wIIAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAwwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:27:12.025Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Configurar_Bkp.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\Configurar_Bkp.cs",
               "RelativeDocumentMoniker": "Synchronizer\\Configurar_Bkp.cs",
               "ToolTip": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\Configurar_Bkp.cs [Projeto]",
               "RelativeToolTip": "Synchronizer\\Configurar_Bkp.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T14:44:38.419Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-11-18T14:44:38.419Z"
             }
           ]
         }
