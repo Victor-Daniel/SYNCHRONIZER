@@ -14,6 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Synchronizer
-build_property.ProjectDir = C:\Users\CDP-TI-001\source\repos\SYNCHRONIZER\Synchronizer\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Victor\source\repos\SYNCHRONIZER\Synchronizer\

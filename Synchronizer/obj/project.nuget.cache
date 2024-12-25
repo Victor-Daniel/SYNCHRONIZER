@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ad5utgJr9jg=",
+  "dgSpecHash": "s4Yi44hxExjIpRwgUL2IQ5UPTk69lDRPJWGihxyXIoNbTdMxwlZKJYhjh6ClygnL9ygra/fP9tEnDPMeRLYJ9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\CDP-TI-001\\source\\repos\\SYNCHRONIZER\\Synchronizer\\Synchronizer.csproj",
+  "projectFilePath": "C:\\Users\\Victor\\source\\repos\\SYNCHRONIZER\\Synchronizer\\Synchronizer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CDP-TI-001\\.nuget\\packages\\ini-parser\\2.5.2\\ini-parser.2.5.2.nupkg.sha512"
+    "C:\\Users\\Victor\\.nuget\\packages\\ini-parser\\2.5.2\\ini-parser.2.5.2.nupkg.sha512"
   ],
   "logs": [
     {

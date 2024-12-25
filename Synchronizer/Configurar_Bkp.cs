@@ -112,8 +112,8 @@ namespace Synchronizer
             var Directory = new FolderBrowserDialog();
             Directory.ShowDialog();
             var Folder = Directory.SelectedPath;
-            
-            
+
+
         }
     }
 }
