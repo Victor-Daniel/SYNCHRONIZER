@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Synchronizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f7c2846faaafb8e864701f5ccfd0e2d0b1515ba")]
+>>>>>>> 553e3b618a3e5e23d49cb7d6c59b6cdba02401f0
 [assembly: System.Reflection.AssemblyProductAttribute("Synchronizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Synchronizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

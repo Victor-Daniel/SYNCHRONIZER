@@ -54,6 +54,8 @@ namespace Synchronizer
                 btn_BackupDiferencial.Enabled = true;
                 btn_BackpComp.Enabled = true;
             }
+            this.Load_ListBox();
+
 
         }
 
@@ -100,6 +102,7 @@ namespace Synchronizer
 
         }
 
+        //Salva as configurações Personalizadas
         private void btn_Salvar_Click(object sender, EventArgs e)
         {
             ConfigBackup configBackup = new ConfigBackup();
@@ -107,11 +110,13 @@ namespace Synchronizer
 
         }
 
+        //Cria um endereço para uma pasta no ListBox
         private void btn_mkdir_Click(object sender, EventArgs e)
         {
             var Directory = new FolderBrowserDialog();
             Directory.ShowDialog();
             var Folder = Directory.SelectedPath;
+<<<<<<< HEAD
 
 
         }
@@ -122,11 +127,52 @@ namespace Synchronizer
 
             List<string> Dir = new List<string>(); 
             foreach (string dir in lb_Person.Items)
+=======
+            if (!lb_Person.Items.Contains(Folder))
+>>>>>>> 553e3b618a3e5e23d49cb7d6c59b6cdba02401f0
             {
-                Dir.Add(dir);
+                if (Folder != String.Empty)
+                {
+                    lb_Person.Items.Add(Folder);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Diretório já foi adicionado!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
+        }
+
+        //Botão que começa a salvar as informações de arquivos em um txt.
+        private void btn_Save_Directory_Click(object sender, EventArgs e)
+        {
+            if (lb_Person.Items.Count > 0)
+            {
+                List<string> files = new List<string>();
+                foreach (var item in lb_Person.Items)
+                {
+                    files.Add(item.ToString());
+                }
+
+                ConfigBackup configBackup = new ConfigBackup();
+                configBackup.SaveDirectories(files);
+            }
+            else
+            {
+                MessageBox.Show("Lista de diretórios está vazia!", "ERROR!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        //Carrega dados no ListBox quando carrega a tela.
+        private void Load_ListBox()
+        {
             ConfigBackup configBackup = new ConfigBackup();
-            configBackup.SaveDirectories(Dir);
- 
- */
+            string Diretorios = configBackup.ListDirectories();
+            string Lista = "";
+            configBackup.ListDirectories();
+
+
+        }
+    }
+
+}

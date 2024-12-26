@@ -93,14 +93,21 @@ class ConfigBackup
     //Gravar diretórios para backup
     public void SaveDirectories(List<string> Directories)
     {
-        var Arquivo = this.ListaDiretorios();
+        var Arquivo = this.ListDirectories();
         var PastaBKP = Arquivo.Replace(@"\Directories.txt", "");
         
         if (Directory.Exists(PastaBKP))
         {
             if (File.Exists(Arquivo))
             {
-                MessageBox.Show(this.ListaDiretorios());
+                using (StreamWriter Writer = new StreamWriter(Arquivo,true))
+                {
+                    foreach (var item in Directories)
+                    {
+                        Writer.WriteLine(item);
+                    }
+                    MessageBox.Show("Diretórios salvos com Êxito!", "Sucesso!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
             else
             {
@@ -114,12 +121,18 @@ class ConfigBackup
     
     }
 
-    private string ListaDiretorios()
+    //Retorna o Endereço completo do arquivo Directories.txt
+    public string ListDirectories()
     {
         var CaminhoSystema = System.AppDomain.CurrentDomain.BaseDirectory;
         var ArquivoLista = ConfigurationManager.AppSettings["DirectoryDir"];
         var CaminhoConhecidoAPP = ConfigurationManager.AppSettings["DefaultPathExe"];
         var CaminhoPadrãoLista = CaminhoSystema.Replace(CaminhoConhecidoAPP, "");
         return CaminhoPadrãoLista + ArquivoLista;
+    }
+
+    public void LoadDirectories()
+    {
+
     }
 }
